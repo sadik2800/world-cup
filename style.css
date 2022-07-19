@@ -1,0 +1,68 @@
+
+/* google Fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+/* Local style  */
+body{
+    font-family: 'Poppins', sans-serif; 
+  
+}
+main{
+    display: flex;
+    justify-content: center;
+}
+.container{
+ background-color: #FFFFFF;
+
+}
+.banner-section{
+    background-color: #161616;
+   
+width: 1321px;
+height: 646px;
+border-radius: 10px;
+
+}
+.banner{
+    color:  #FFFFFF;
+    width: 531px;
+height: 424px;
+padding-left: 101px;
+padding-top: 101px;
+}
+.banner h2{
+    font-weight: 700;
+    font-size: 70px;
+    margin-bottom: 2px;
+}
+.banner p{
+    font-weight: 400;
+font-size: 16px;
+
+}
+.site-banner{
+   display: flex;
+  
+}
+button {
+    background-color: #DD0000;
+    color: #FFFFFF;
+}
+.banner-img img{
+    margin-left: 100px;
+    margin-top: 33px;
+    width: 581px;
+height: 613px;
+
+  
+}
+.blogs{
+    border: 3px sold orange;
+}
+.blog button{
+    color: #161616;
+    background-color: #fff;
+    border: 1px solid gray;
+    padding: 17px 39px;
+
+}
