@@ -9,10 +9,17 @@ body{
 }
 main{
     display: flex;
-    justify-content: center;
+   
+   align-items: center;
+    flex-direction: column;
+
+    
+   
 }
-.container{
+.container2{
  background-color: #FFFFFF;
+ margin-top: 10px;
+ display: grid;
 
 }
 .banner-section{
@@ -21,6 +28,7 @@ main{
 width: 1321px;
 height: 646px;
 border-radius: 10px;
+margin-bottom: 130px;
 
 }
 .banner{
@@ -53,16 +61,89 @@ button {
     margin-top: 33px;
     width: 581px;
 height: 613px;
+}
+  .for-flexing{
+    display: grid;
+    grid-template-columns: repeat(3 ,1fr);
+    padding-left: 200px ;
+   
+  }
 
-  
-}
 .blogs{
-    border: 3px sold orange;
+ 
+  width: 312px;
+height: 312px;
+padding: 30px;
+background-color: black;
+margin-left: -27vh;
+border-radius: 10px;
+margin-bottom: 50px;
+display: grid;
+grid-template-columns: auto;
+text-decoration: none;
+
 }
-.blog button{
-    color: #161616;
-    background-color: #fff;
-    border: 1px solid gray;
-    padding: 17px 39px;
+
+
+.blog a{
+    color: #161616;  
+    border: 1px solid gray;  
+    
+   background-color: rgb(255, 255, 255);
+   padding: 12px 20px ;
+   border-radius: 10px;
+   
+   
+}
+
+.updates{
+    border: 1px solid #E8E8E8;
+    width: 312px;
+height: 390px;
+
+}
+
+.update-title{
+    font-size: 18px;
+    font-weight: 500px;
+    /* padding:17px 39px 17px 39px;  */
+
+}
+.duration{
+   
+    display: flex;
+    margin-left: 20px;
+}
+.feedback{
+    margin-left: 100px;
+}
+.footer{
+    width: 1600px;
+height: 444px;
+background-color: black;
+}
+.footer h1{
+    color: #FFFFFF;
+    text-align: center;
+    padding: 120px;
+    padding-bottom: 20px;
+
+}
+.details{
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-evenly;
+}
+.social{
+    display: flex;
+    justify-content: center;
+    padding-right: 80px;
+    padding-bottom: 30px;
+   
+   
+}
+.social a{
+    margin-left: 80px;
+    font-size: 40px;
 
 }
