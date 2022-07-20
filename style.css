@@ -20,6 +20,8 @@ main{
  background-color: #FFFFFF;
  margin-top: 10px;
  display: grid;
+ grid-template-columns: 312px repeat(3,1fr);
+ padding-left: 150px ;
 
 }
 .banner-section{
@@ -62,44 +64,49 @@ button {
     width: 581px;
 height: 613px;
 }
-  .for-flexing{
-    display: grid;
-    grid-template-columns: repeat(3 ,1fr);
-    padding-left: 200px ;
-   
-  }
 
 .blogs{
  
   width: 312px;
 height: 312px;
-padding: 30px;
-background-color: black;
-margin-left: -27vh;
 border-radius: 10px;
+
+background-color: black;
+margin-left: -15vh;
+padding: 30px;
 margin-bottom: 50px;
 display: grid;
 grid-template-columns: auto;
 text-decoration: none;
 
+text-align: center;
+
+
 }
 
 
-.blog a{
-    color: #161616;  
-    border: 1px solid gray;  
-    
-   background-color: rgb(255, 255, 255);
-   padding: 12px 20px ;
-   border-radius: 10px;
-   
-   
+.blogs a{
+ color: #161616;
+ background-color: #fff;
+ text-decoration: none;
+ width: 252px;
+height: 64px;
+margin-top: 20px;
+padding-top: 25px;
+
+ border-radius: 10px;
+
+ margin-left: 20px;
+}
+#blog{
+    background-color: #DD0000;
 }
 
 .updates{
     border: 1px solid #E8E8E8;
     width: 312px;
-height: 390px;
+height: 362px;
+/* margin-left: 100px; */
 
 }
 
