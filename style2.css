@@ -1,4 +1,7 @@
 
+
+
+
 /* google Fonts  */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 
@@ -150,56 +153,21 @@ background-color: black;
     font-size: 40px;
 
 }
-/* media query  */
-/* Resonsive for mobile  */
-@media (min-width: 320px) and (max-width: 480px){
-    .container{
-       
-        
-    }
-    .banner-section{
-        width: 100%;
-       
-    }
-    .site-banner, .container2, .footer,.social-icon, .details{
-        width: 100%;
-        padding-right: 40px;
-   
-        display: grid;
-        grid-template-columns: repeat(1 ,1fr);
-    }
-    .social-icon{
-        margin-top: -30px;
-        padding-left: 50px;
-        row-gap: 15px;
-    }
-    .footer, .details{
-        background-color: black;
-        height: 412px;
-        margin-top: -73px;
-        text-align: center;
-       
-    }
+img{
+    height: 60px;
+    width: auto;
+}
+.matches{
+    padding-top: 30px;
+    width: 312px;
+    height: 362px;
+    border: 1px solid rgb(234, 227, 227);
+    flex-direction: column;
    
 }
-/* Tablet devices  */
-@media only screen and (min-width: 481px) and (max-width: 768px) {
-
-    .container{
-        
-       
-    }
-    .banner-section{
-        width: 100%;
-    }
-    .site-banner, .container2, .footer,.social-icon, .details{
-        display: grid;
-        grid-template-columns: repeat(2 ,1fr);
-        align-items: center;
-        align-items: center;
-        padding-left: 110px;
-    }
-
-
-
+.matches img,h4,p{
+    padding-left: 90px;
+   
+    align-items: center;
+    
 }
